@@ -118,3 +118,31 @@ button {
     display: flex;
     flex-direction: column;
 }
+.call-to-action-container{
+  background-color: #3882f6;
+}
+.button{
+  border: solid white 3px;
+  max-width: 200px;
+  flex: 1;
+}
+.call-to-action-container{
+  display: flex;
+  gap: 16px;
+  border-radius: 8px;
+  margin: 64px 0;
+  padding: 32px;
+  justify-content: space-between;
+}
+.text-container{
+  display: flex;
+  flex-direction: column;
+}
+.text{
+  font-size: 32px;
+  color: #f9faf8;
+}
+.footer{
+  text-align: center;
+  padding: 24px;
+}
